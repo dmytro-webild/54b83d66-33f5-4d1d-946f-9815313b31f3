@@ -82,7 +82,7 @@ export default function LandingPage() {
           href: "#reference",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/modern-country-houses-construction_1385-15.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/modern-country-houses-construction_1385-15.jpg?_wi=1"
       imageAlt="Realizace rodinného domu na klíč"
       avatars={[
         {
@@ -159,7 +159,7 @@ export default function LandingPage() {
           content: "Dodáváme a montujeme efektivní solární systémy pro ohřev užitkové vody.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/stone-modern-building-with-windows_23-2148252726.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/stone-modern-building-with-windows_23-2148252726.jpg?_wi=1"
       imageAlt="Stavba rodinného domu na klíč"
     />
   </div>
@@ -184,7 +184,7 @@ export default function LandingPage() {
           description: "Jasné ceny a komunikace během celého procesu.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-hummer-tools-stairs-house-construction_181624-28753.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-hummer-tools-stairs-house-construction_181624-28753.jpg?_wi=1"
       imageAlt="Interiérová rekonstrukce bytu"
     />
   </div>
@@ -200,13 +200,13 @@ export default function LandingPage() {
           id: "r1",
           name: "Rodinný dům Ostrava",
           price: "Realizace 2023",
-          imageSrc: "http://img.b2bpic.net/free-photo/stone-modern-building-with-windows_23-2148252726.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/stone-modern-building-with-windows_23-2148252726.jpg?_wi=2",
         },
         {
           id: "r2",
           name: "Rekonstrukce bytu Poruba",
           price: "Realizace 2023",
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-hummer-tools-stairs-house-construction_181624-28753.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-hummer-tools-stairs-house-construction_181624-28753.jpg?_wi=2",
         },
         {
           id: "r3",
@@ -258,7 +258,7 @@ export default function LandingPage() {
         required: true,
       }}
       buttonText="Odeslat poptávku"
-      imageSrc="http://img.b2bpic.net/free-photo/modern-country-houses-construction_1385-15.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/modern-country-houses-construction_1385-15.jpg?_wi=2"
       imageAlt="Kontaktujte RD Real plus"
     />
   </div>
