@@ -70,8 +70,8 @@ export default function LandingPage() {
       background={{
         variant: "gradient-bars",
       }}
-      title="Stavby, rekonstrukce a fotovoltaika na klíč"
-      description="RD Real plus zajišťuje kompletní realizace rodinných domů, rekonstrukcí a úsporných energetických řešení. Spolehlivě, profesionálně a bez zbytečných starostí."
+      title="Rodinné domy, rekonstrukce a fotovoltaika bez zbytečných starostí "
+      description="RD Real plus poskytuje kompletní stavební a energetická řešení pro rodinné domy. Od prvního návrhu až po finální realizaci dbáme na kvalitu, transparentní komunikaci a profesionální přístup."
       buttons={[
         {
           text: "Nezávazně poptat",
@@ -126,7 +126,7 @@ export default function LandingPage() {
         },
         {
           type: "text",
-          text: "Ostrava a okolí",
+          text: "Moravskoslezský kraj",
         },
       ]}
     />
