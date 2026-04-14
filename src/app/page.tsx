@@ -31,7 +31,7 @@ export default function LandingPage() {
         {
           name: "Domů",          id: "hero"},
         {
-          name: "Stavba domu na klíč",          id: "sluzby"},
+          name: "Stavební činnost",          id: "/stavebni-cinnost"},
         {
           name: "Rekonstrukce",          id: "sluzby"},
         {
@@ -98,7 +98,7 @@ export default function LandingPage() {
       description="Specializujeme se na profesionální řešení pro váš dům – od projektu až po předání."
       accordionItems={[
         {
-          id: "s1",          title: "Stavba domu na klíč",          content: "Zajistíme kompletní výstavbu vašeho nového domova přesně podle vašich představ."},
+          id: "s1",          title: "Stavební činnost",          content: "Zajistíme kompletní výstavbu vašeho nového domova přesně podle vašich představ."},
         {
           id: "s2",          title: "Rekonstrukce",          content: "Modernizujeme byty i starší rodinné domy s důrazem na kvalitu a funkčnost."},
         {
@@ -197,13 +197,13 @@ export default function LandingPage() {
         {
           title: "Služby",          items: [
             {
-              label: "Stavby na klíč",              href: "#sluzby"},
+              label: "Stavební činnost",              href: "/stavebni-cinnost"},
             {
-              label: "Rekonstrukce",              href: "#sluzby"},
+              label: "Rekonstrukce",              href: "/rekonstrukce"},
             {
-              label: "Fotovoltaika",              href: "#sluzby"},
+              label: "Fotovoltaika",              href: "/fotovoltaika"},
             {
-              label: "Ohřev vody",              href: "#sluzby"},
+              label: "Ohřev vody",              href: "/ohrev-vody"},
           ],
         },
       ]}
