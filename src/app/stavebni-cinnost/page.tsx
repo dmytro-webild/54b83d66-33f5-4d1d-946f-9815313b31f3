@@ -34,6 +34,7 @@ export default function StavebniCinnostPage() {
             { name: "Kontakt", id: "/kontakt" },
           ]}
           brandName="RD Real plus"
+          logoSrc="rdreal.png"
         />
         
         <HeroBillboard
