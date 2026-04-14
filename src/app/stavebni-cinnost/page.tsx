@@ -12,7 +12,18 @@ import FooterSimple from '@/components/sections/footer/FooterSimple';
 
 export default function StavebniCinnostPage() {
   return (
-    <ThemeProvider>
+    <ThemeProvider 
+      defaultButtonVariant="text-stagger" 
+      defaultTextAnimation="entrance-slide" 
+      borderRadius="rounded" 
+      contentWidth="medium" 
+      sizing="medium" 
+      background="circleGradient" 
+      cardStyle="glass-elevated" 
+      primaryButtonStyle="gradient" 
+      secondaryButtonStyle="glass" 
+      headingFontWeight="normal"
+    >
       <ReactLenis root>
         <NavbarStyleApple
           navItems={[
@@ -30,6 +41,7 @@ export default function StavebniCinnostPage() {
           description="Výstavba rodinných domů na klíč, komplexní rekonstrukce a odborná realizace staveb s garancí kvality."
           buttons={[{ text: "Poptat realizaci", href: "#kontakt" }]}
           imageSrc="http://img.b2bpic.net/free-photo/modern-country-houses-construction_1385-15.jpg"
+          background={{ variant: "plain" }}
         />
 
         <FeatureCardTwentyOne
@@ -41,6 +53,8 @@ export default function StavebniCinnostPage() {
             { id: "c3", title: "Stavební dozor", content: "Zajistíme profesionální dohled nad procesem realizace, abyste měli jistotu kvality." }
           ]}
           imageSrc="http://img.b2bpic.net/free-photo/stone-modern-building-with-windows_23-2148252726.jpg"
+          mediaAnimation="slide-up"
+          useInvertedBackground={false}
         />
 
         <SplitAbout
@@ -52,6 +66,8 @@ export default function StavebniCinnostPage() {
             { title: "Dodržení termínů", description: "Plánování je základ – vaše projekty dokončujeme včas." },
             { title: "Transparentní rozpočet", description: "U nás se nemusíte bát skrytých nákladů – jasně a předem." }
           ]}
+          mediaAnimation="slide-up"
+          useInvertedBackground={false}
         />
 
         <ProductCardOne
@@ -59,6 +75,8 @@ export default function StavebniCinnostPage() {
           description="Prohlédněte si naše nedávné projekty a přesvědčte se o našem přístupu."
           gridVariant="four-items-2x2-equal-grid"
           animationType="slide-up"
+          textboxLayout="split"
+          useInvertedBackground={false}
           products={[
             { id: "p1", name: "Novostavba RD Ostrava", price: "Realizováno 2023", imageSrc: "http://img.b2bpic.net/free-photo/modern-country-houses-construction_1385-15.jpg" },
             { id: "p2", name: "Rekonstrukce vily", price: "Realizováno 2023", imageSrc: "http://img.b2bpic.net/free-photo/stone-modern-building-with-windows_23-2148252726.jpg" }
@@ -72,12 +90,15 @@ export default function StavebniCinnostPage() {
             { name: "name", type: "text", placeholder: "Jméno a příjmení", required: true },
             { name: "email", type: "email", placeholder: "E-mail", required: true }
           ]}
+          useInvertedBackground={false}
         />
 
         <FooterSimple 
           columns={[
             { title: "RD Real plus", items: [{ label: "Kontakt", href: "/kontakt" }] }
           ]}
+          bottomLeftText="© 2024 RD Real plus"
+          bottomRightText="Všechna práva vyhrazena"
         />
       </ReactLenis>
     </ThemeProvider>
