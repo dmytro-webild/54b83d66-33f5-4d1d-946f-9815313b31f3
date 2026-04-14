@@ -40,7 +40,7 @@ export default function StavebniCinnostPage() {
           title="Profesionální stavební činnost"
           description="Výstavba rodinných domů na klíč, komplexní rekonstrukce a odborná realizace staveb s garancí kvality."
           buttons={[{ text: "Poptat realizaci", href: "#kontakt" }]}
-          imageSrc="http://img.b2bpic.net/free-photo/modern-country-houses-construction_1385-15.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/modern-country-houses-construction_1385-15.jpg?_wi=1"
           background={{ variant: "plain" }}
         />
 
@@ -52,7 +52,7 @@ export default function StavebniCinnostPage() {
             { id: "c2", title: "Kompletní rekonstrukce", content: "Od bytů po historické budovy – vracíme prostorům život a funkčnost." },
             { id: "c3", title: "Stavební dozor", content: "Zajistíme profesionální dohled nad procesem realizace, abyste měli jistotu kvality." }
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/stone-modern-building-with-windows_23-2148252726.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/stone-modern-building-with-windows_23-2148252726.jpg?_wi=1"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
         />
@@ -78,8 +78,8 @@ export default function StavebniCinnostPage() {
           textboxLayout="split"
           useInvertedBackground={false}
           products={[
-            { id: "p1", name: "Novostavba RD Ostrava", price: "Realizováno 2023", imageSrc: "http://img.b2bpic.net/free-photo/modern-country-houses-construction_1385-15.jpg" },
-            { id: "p2", name: "Rekonstrukce vily", price: "Realizováno 2023", imageSrc: "http://img.b2bpic.net/free-photo/stone-modern-building-with-windows_23-2148252726.jpg" }
+            { id: "p1", name: "Novostavba RD Ostrava", price: "Realizováno 2023", imageSrc: "http://img.b2bpic.net/free-photo/modern-country-houses-construction_1385-15.jpg?_wi=2" },
+            { id: "p2", name: "Rekonstrukce vily", price: "Realizováno 2023", imageSrc: "http://img.b2bpic.net/free-photo/stone-modern-building-with-windows_23-2148252726.jpg?_wi=2" }
           ]}
         />
 
