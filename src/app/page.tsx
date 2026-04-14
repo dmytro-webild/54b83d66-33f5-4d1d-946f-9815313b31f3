@@ -46,6 +46,7 @@ export default function LandingPage() {
           name: "Kontakt",          id: "kontakt"},
       ]}
       brandName="RD Real plus"
+      logoSrc="rdreal.png"
     />
   </div>
 
